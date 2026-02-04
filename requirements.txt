@@ -1,0 +1,39 @@
+# PDF extraction
+pdfplumber
+
+# Load Env
+python-dotenv
+
+# LangChain core
+langchain
+langchain-openai
+langchain-text-splitters
+langchain-community
+langchain-core
+
+# LLM & embeddings
+openai
+tiktoken
+
+# Vector database
+faiss-cpu
+
+# Data models & validation
+pydantic
+
+# Utilities
+numpy
+
+# Better PDF table extraction (financial bids)
+camelot-py[cv]
+
+# Logging / debugging
+loguru
+
+# UI dashboard (if you plan to demo)
+streamlit
+
+# Backend
+fastapi
+uvicorn
+python-multipart
