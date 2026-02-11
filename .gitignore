@@ -16,6 +16,8 @@ build/
 venv/
 env/
 ENV/
+.tepoc/
+tepoc/
 
 # ============================
 # VS Code

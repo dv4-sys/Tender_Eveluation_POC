@@ -1,6 +1,9 @@
 # PDF extraction
 pdfplumber
 
+# Boto3 for AWS S3 access
+boto3
+
 # Load Env
 python-dotenv
 
