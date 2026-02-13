@@ -3,7 +3,9 @@ from pydantic import BaseModel
 import tempfile
 from pathlib import Path
 from typing import List, Dict
-from rag_engine import run_poc
+# from rag_engine import run_poc
+from rag.pipeline import run_poc
+
 
 app = FastAPI(title="GenAI Tender Evaluation", version="1.0.0")
 
