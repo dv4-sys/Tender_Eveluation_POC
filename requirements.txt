@@ -1,5 +1,10 @@
+pillow 
+
 # PDF extraction
 pdfplumber
+pytesseract
+pdf2image
+PyMuPDF
 
 # Boto3 for AWS S3 access
 boto3
@@ -9,14 +14,10 @@ python-dotenv
 
 # LangChain core
 langchain
-langchain-openai
 langchain-text-splitters
 langchain-community
 langchain-core
-
-# LLM & embeddings
-openai
-tiktoken
+langchain-aws
 
 # Vector database
 faiss-cpu
@@ -40,3 +41,5 @@ streamlit
 fastapi
 uvicorn
 python-multipart
+
+sentence_transformers
